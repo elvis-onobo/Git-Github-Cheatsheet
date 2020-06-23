@@ -39,12 +39,20 @@ Github is a Git repository hosting service. Many of its features are free for de
 
 ### To check status of file
 To check the status of files you’ve changed in your working directory, i.e, what all has changed since your last commit.
-```git status.```
+
+```git status```
 
 ### Push or Pull your changes to remote.
 If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
-``` git pull <:remote:> <:branch:>``` and ```git push <:remote:> <:branch:>```
 
-### listing out Branches.
+```git pull <remote> <branch>```
+
+and to push to remote
+
+```git push <remote> <branch>```
+
+### Listing out Branches.
 If you want to list out all the branches, be it the master or any any other.
-``` git branch``` or``` git branch -a ```to list all the remote branches as well
+
+
+```git branch``` or ```git branch -a```
