@@ -37,12 +37,12 @@ In order for other people to be able to see your code, the changes you have made
 be hosted remotely and that is where Github comes in.
 Github is a Git repository hosting service. Many of its features are free for developers and it sup
 
-### To check status of file
+### To Check Status of File
 To check the status of files you’ve changed in your working directory, i.e, what all has changed since your last commit.
 
 ```git status```
 
-### Push or Pull your changes to remote.
+### Push or Pull Your Changes to Remote.
 If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
 
 ```git pull <remote> <branch>```
@@ -51,7 +51,7 @@ and to push to remote
 
 ```git push <remote> <branch>```
 
-### Listing out Branches.
+### Listing Out Your Branches.
 If you want to list out all the branches, be it the master or any any other.
 
 
