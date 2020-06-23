@@ -36,3 +36,15 @@ other people who are working on the project can read in order to understand what
 In order for other people to be able to see your code, the changes you have made and contrubute to them, your code needs to
 be hosted remotely and that is where Github comes in.
 Github is a Git repository hosting service. Many of its features are free for developers and it sup
+
+### To check status of file
+To check the status of files you’ve changed in your working directory, i.e, what all has changed since your last commit.
+```git status.```
+
+### Push or Pull your changes to remote.
+If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
+``` git pull <:remote:> <:branch:>``` and ```git push <:remote:> <:branch:>```
+
+### listing out Branches.
+If you want to list out all the branches, be it the master or any any other.
+``` git branch``` or``` git branch -a ```to list all the remote branches as well
