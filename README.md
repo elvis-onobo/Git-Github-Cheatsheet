@@ -45,6 +45,22 @@ To check the status of files you’ve changed in your working directory, i.e, wh
 If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
 ``` git pull <:remote:> <:branch:>``` and ```git push <:remote:> <:branch:>```
 
-### listing out Branches.
+### Listing out Branches.
 If you want to list out all the branches, be it the master or any any other.
 ``` git branch``` or``` git branch -a ```to list all the remote branches as well
+
+### Checking the Remote Source.
+To check what remote/source you have or add a new remote.
+``` git remote``` to check and list. And ```git remote add <:remote_url:>```
+
+### Merging branches.
+git merge is used to merge a branch into the active one.
+```git merge <branch-name>```
+  
+  ### Resetting Command
+  git reset command will reset the index and the working directory to the last git commit’s state.
+```git reset --hard HEAD```
+
+### Removing a file from the Directory.
+git rm can be used to remove files from the index and the working directory.
+```git rm filename.txt```
